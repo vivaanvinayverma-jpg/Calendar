@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+</head>
+<body>
+    <h1>Calendar</h1>
+    <div id="dateface"></div>
+    <p>I know this seems abnormal, the JavaScript, yes, but, allow me to explain it, so you don't think it's by an A.I. or something:</p>
+
+    <p>From what I know, within and outside of class, here is an explanation as to exacly what every bit of this calendar does:
+    </p>
+
+    <p>The const attachment to the variable means that the variable's information directly, though you can change the information within a object just fine. And, I forgot to mention, the "new" infront of Date() is used to turn it into an object. A little bit later, you will hit this bit of code,</p>
+
+    <p>document.getElementById("dateface").innerText = today.toLocalDateString('en-AU', options);</p>
+    <p>The first part is standard, but the next isn't, there it goes, "today-," wait, thats the keyword I assigned to the object! Then the rest just retrive the day, month, date, and year!</p>
+    <script src="script.js"></script>
+</body>
+</html>
